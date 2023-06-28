@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    //- title= pokemon.Name
+  body
+    img(src=pokemon.Bild, alt=pokemon.Name)
+    h2= pokemon.Name
+    p= pokemon.Beschreibung
+    p= "Typ: " + pokemon.Typ
+    p= "Größe: " + pokemon.Größe
+    script(src="pokemon.js")

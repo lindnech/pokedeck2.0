@@ -1,0 +1,10 @@
+extends ./template/layout
+
+block content
+    include public/includes/navbar
+
+    block welcome 
+        section.welcome
+        img.eich(src="../bilder/eich.jpg", alt="")
+    
+    include public/includes/footer
